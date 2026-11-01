@@ -1,0 +1,27 @@
+{
+  "groqApiKey": "",
+  "geminiApiKey": "",
+  "googleScriptUrl": "https://script.google.com/macros/s/AKfycbwrzIUESfVVUjHDz5vYt1ooc5kWPXBUD1z8vHBMl4jJ9SGY3sF5DU53dpyb1j8xxNUe/exec",
+  "pesanSistem": {
+    "sapaanAwal": "Halo, {nama}! Pesan kamu sudah diterima oleh asisten bot.",
+    "systemPrompt": "Kamu adalah asisten WhatsApp pribadi yang cerdas, ramah, dan solutif. Jawab pertanyaan pengguna secara efektif.",
+    "knowledgeBase": [
+      {
+        "deskripsi": "Jam Operasional Toko",
+        "konten": "Buka setiap hari jam 08:00 - 21:00 WIB."
+      },
+      {
+        "deskripsi": "Metode Pembayaran",
+        "konten": "Menerima QRIS, Transfer Bank, dan Tunai."
+      }
+    ]
+  },
+  "jadwalHarian": {
+    "aktif": true,
+    "jam": "08:00",
+    "targetNomor": [
+      "62147019988"
+    ],
+    "templatePesan": "Selamat pagi! ☀️\nHari ini tanggal {tanggal}.\n\nRingkasan Sistem Bot WA:\n• Total kontak aktif: {total_kontak}\n• Total transaksi struk tercatat: {total_transaksi}\n\nBot WhatsApp Anda beroperasi normal dan siap melayani pelanggan hari ini! 🚀"
+  }
+}
